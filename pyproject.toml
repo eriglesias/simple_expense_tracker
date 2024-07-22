@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "python expense tracker"
+version = "0.1.0"
+description = "A tutorial of a simple expense tracker using object oriented programming in python"
+authors = Enrique Viveros, based on Tiff in Tech tutorial 
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
